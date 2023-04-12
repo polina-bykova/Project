@@ -2,4 +2,4 @@
 
 
 Status of Last Deployment:<br>
-<img src="http://github.com/adv4000/project/workflows/My-GitHub-Actions-Basics/badge.svg?branch=main"><br>
+<img src="https://github.com/adv4000/Project/workflows/My-GitHub-Actions-Basics/badge.svg?branch=main"><br>
