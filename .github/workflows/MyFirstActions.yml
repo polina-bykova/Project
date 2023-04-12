@@ -3,9 +3,8 @@
 #.................................
 name: My-GitHub-Actions-Basics
 env:
-  APPLICATION_NAME  : "MyFlasc"
-  DEPLOY_PACKAGE_NAME: "flasc-deploy-ver-${{ github.sha }}" 
-  
+  APPLICATION_NAME    : "MyFlasc"
+  DEPLOY_PACKAGE_NAME : "flasc-deploy-ver-${{ github.sha }}" 
 
 on: 
   push: 
@@ -20,6 +19,7 @@ jobs:
     steps:
     - name: Print Hello message in Testing
       run: echo "Hello, world from Testing job"
+      
     - name: Execure few commands
       run: |
         echo "Hello message1"
