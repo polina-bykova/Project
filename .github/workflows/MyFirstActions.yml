@@ -1,12 +1,13 @@
 #..................................
 #GitHub Action Part-1
 #.................................
-name: My-CitHub-Actions-Basics
+name: My-GitHub-Actions-Basics
 
 on: 
   push: 
       branches:
           - main
+
 jobs:
   my_testing:
   
@@ -14,13 +15,12 @@ jobs:
     
     steps:
     - name: Print Hello message
-    - run: echo "Hello, world from Testing job"
-  
-  
+      run: echo "Hello, world from Testing job"
+    
   my_deploy:
   
     runs-on: ubuntu-latest
   
     steps:
     - name: Print Hello message
-    - run: echo "Hello, world from Deploy job"
+      run: echo "Hello, world from Deploy job"
