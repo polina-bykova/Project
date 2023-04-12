@@ -36,4 +36,4 @@ jobs:
       run: echo "Hello, world from Deploy job"
       
     - name: Printing Deployment package
-      run: echo "Deploy package name: ${{ env.DEPLOY_PACKAGE_NAME }}"
+      run: echo "Deploy package name is ${{ env.DEPLOY_PACKAGE_NAME }}"
